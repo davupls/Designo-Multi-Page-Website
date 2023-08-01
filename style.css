@@ -49,6 +49,41 @@ p {
     line-height: 26px;
 }
 
+a {
+    color: var(--white);
+    text-decoration: none;
+}
 
 
 
+
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    header {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .logo-container img{
+        width: 202px;
+    }
+
+    .banner-wrapper {
+        background-color: var(--custom-black);
+    }
+
+    .menu-li-mobile {
+        
+        list-style: none;
+    }
+}

@@ -62,11 +62,6 @@ a {
     justify-content: space-between;
 }
 
-body {
-    background-color: white;
-}
-
-
 @media screen and (max-width: 400px) {
     header {
         background-color: white;
@@ -75,6 +70,7 @@ body {
         z-index: 100;
         position: relative;
         z-index: 100;
+        height: 10vh;
     }
 
     .nav-wrapper {
@@ -90,11 +86,6 @@ body {
         background-color: transparent;
         border: none;
     } 
-
-    .banner-wrapper {
-        background-color: var(--custom-black);
-        
-    }
 
     .mobile-menu {
         position: relative;
@@ -123,9 +114,56 @@ body {
 
 }
 
-/* @media screen and (min-width: 401px) {
-    .menu-container {
-        display: none;
-        visibility: hidden;
+
+
+
+
+
+/* Banner Section */
+.banner {
+    background-color: var(--custom-peach);
+}
+
+.btn-style {
+    background-color: var(--white);
+    border-radius: 8px;
+}
+
+.btn-style a {
+    color: var(--custom-black);
+}
+
+@media screen and (max-width: 400px) {
+    .banner {
+        height: 90vh;
     }
-} */
+
+    .banner h1, p {
+        color: var(--white);
+    }
+    
+    .banner h1 {
+        font-size: 2rem;
+        line-height: 36px;
+    }
+
+    .banner p {
+        font-size: 0.9375rem;
+        line-height: 25px;
+    }
+
+    .btn-style {
+        padding: 18px 24px;
+        margin: 24px auto 0;
+        width: 152px;
+    }
+
+    .banner-detail {
+        padding: 80px 24px 451px;
+        text-align: center;
+    }
+
+    .home-banner-h1 {
+        margin-bottom: 14px;
+    }
+}

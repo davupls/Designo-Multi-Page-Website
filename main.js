@@ -12,3 +12,8 @@ menuButton.addEventListener("click", function(){
         menuButtonClosed = true;
     }
 });
+
+
+const mobileMenu = document.querySelector(".menu-ul-mobile");
+// let menuHeight = mobileMenu.he
+// offsetHeight

@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    /* primary colors */
+    --custom-peach: #E7816B;
+    --custom-black: #1D1C1E;
+    --white: #FFF;
+
+    /* secondary colors */
+    --custom-light-peach: #FFAD9B;
+    --custom-dark-grey:  #333136;
+    --custom-light-grey: #F1F3F5;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+

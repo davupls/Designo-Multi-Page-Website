@@ -122,6 +122,10 @@ a {
 /* Banner Section */
 .banner {
     background-color: var(--custom-peach);
+    background-image: url(assets/home/desktop/bg-pattern-hero-home.svg), url(assets/home/desktop/image-hero-phone.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0% 100px, center 180px;
+    background-size: 640px;
 }
 
 .btn-style {

@@ -79,7 +79,7 @@ header {
     button {
         background-color: transparent;
         border: none;
-    }
+    } 
 
     .banner-wrapper {
         background-color: var(--custom-black);

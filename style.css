@@ -109,7 +109,8 @@ body {
         background-color: var(--custom-black);
         padding: 49px 24px;
         width: 100%;
-        /* top: -242px; */
+
+        transition: top 300ms cubic-bezier(.92,.25,0,.72);
     }
 
     .menu-li-mobile {
